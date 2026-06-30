@@ -1,14 +1,17 @@
 # Zuri Flow
 
-Zuri Flow is a Flutter app for tracking workouts, diet, and overall health progress, with Firebase-backed authentication and data sync.
+Zuri Flow is a premium Flutter mobile application that delivers personalized Pilates and nutrition recommendations, and tracks user progress using Firebase Authentication and Cloud Firestore.
+
+The application focuses on creating a calm, feminine, and beginner-friendly wellness experience rather than a traditional fitness tracker.
 
 ## Features
 
 - Email/password and Google sign-in (Firebase Auth), with email verification
 - Onboarding flow to capture user profile data
-- Personalized diet and workout recommendations
+- Personalized Diet recommendations
+- Personalized Pilates and Yoga recommendations
 - Progress tracking dashboard
-- Cloud Firestore for persisting user, workout, and diet data
+- Cloud Firestore for secure user profile, recommendation, and progress data storage
 
 ## Tech Stack
 
@@ -26,6 +29,26 @@ lib/
   services/      # Firebase, auth, notification, and recommendation logic
   main.dart      # App entry point
 ```
+
+## Project Goals
+
+- Promote sustainable wellness habits
+- Deliver personalized fitness recommendations
+- Track body progress over time
+- Encourage consistency through an elegant user experience
+
+## Recommendation Engine
+
+Recommendations are generated using user profile information:
+
+- Fitness goal
+- Height
+- Weight
+- Activity level
+- Progress history
+- Wellness notes
+  
+These inputs are processed to generate personalized Pilates workouts and nutrition recommendations tailored to each user's wellness goals
 
 ## Getting Started
 
@@ -49,8 +72,26 @@ flutter analyze     # static analysis / lints
 flutter test        # run tests
 flutter build apk    # build an Android release
 ```
+## Planned Features
 
+- Weekly wellness reports
+- Push notifications
+- Water intake tracking
+- Branded email notifications
+  
 ## Resources
 
 - [Flutter documentation](https://docs.flutter.dev/)
 - [FlutterFire documentation](https://firebase.flutter.dev/)
+## Developer
+
+Christine Syombua
+
+Bachelor of Science in Software Development
+
+KCA University
+
+GitHub: @syombua-02
+
+## License
+This project was developed for academic and portfolio purposes.
